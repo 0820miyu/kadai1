@@ -1,5 +1,4 @@
-
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -30,7 +29,7 @@ main {
 
 .step-img1 {
   height: 150px;
-  background-image:url(img/flow01.png);
+  background-image: url(img/flow01.png);
   background-position: bottom;
   background-size: cover;
 }
@@ -67,5 +66,19 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-  main{display: block;}
   
+  header { width: 100%;
+    margin-bottom: 50px;}
+  
+  main{display: block;
+    width: 100%;
+    margin:20px;}
+    
+.step-box{
+  margin-bottom:20px;
+  width:90%;
+}
+
+footer{ width: 100%;
+  margin-top: 50px;}
+}
