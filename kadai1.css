@@ -26,6 +26,8 @@ main {
   margin-right: 0;
 }
 
+
+
 .step-img1 {
   height: 150px;
   background-image: url(img/flow01.png);
@@ -66,24 +68,27 @@ footer {
 
 @media screen and (max-width: 768px) {
   
-  header { width: 100%;
+  header { 
+    width: 100%;
     margin-bottom: 50px;}
   
-  main{display: block;
+  main{
+    display: block;
     width: 100%;
     margin:20px;}
     
-.step-box{
-  margin-bottom:20px;
-  width:90%;
-  margin: 0auto; 
+  .step-box{
+     margin-bottom:20px;
+     width:90%;
+  
 }
 
-footer{ width: 100%;
-  margin-top: 50px;}
+  footer{ 
+     width: 100%;
+     margin-top: 50px;}
 }
 @media screen and (min-width: 769px){
   .step-box{
-      margin-right: 30px;
+     margin-right: 30px;
   }
 }
